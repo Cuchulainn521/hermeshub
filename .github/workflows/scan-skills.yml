@@ -2,11 +2,7 @@ name: Skill Security Scan
 
 on:
   pull_request:
-    paths:
-      - 'skills/**'
   push:
-    paths:
-      - 'skills/**'
     branches:
       - main
 
